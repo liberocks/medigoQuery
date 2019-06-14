@@ -27,3 +27,8 @@ node index <QUERY_STRING> [<OPTIONS>]
 - `QUERY_STRING` contains the javascript object acting as query.
 - `OPTIONS` contains optional variable to set particular parameter while running the command. Available `OPTIONS` :
    - `--verbose` - to activate debug logging
+   
+For example :
+```
+node index '{"doctorId":"5d02dce01c5704993b2d4be1","page":1,"date":"2019-06-14"}'
+```
